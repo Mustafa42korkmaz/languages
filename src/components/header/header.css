@@ -1,0 +1,9 @@
+.logo-react{
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}

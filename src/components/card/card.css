@@ -1,0 +1,42 @@
+.card-area-container{
+    background-color: #f48b29;
+    height: 41rem;
+    width: 25rem;
+    border-radius: 1rem;
+    margin: auto ;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "top" "bottom";
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.card-title{
+    grid-area: top;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container{
+    grid-area: bottom;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.bar{
+    height: 41rem;
+    width: 5rem;
+    background-color:rgba(71, 204, 234, 0.747) ;
+    position: relative;
+    transform: rotate(-45deg);
+    top: -40rem;
+    left: 150px;
+}
+
+
+
